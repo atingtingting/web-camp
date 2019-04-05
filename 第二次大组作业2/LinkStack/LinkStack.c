@@ -1,7 +1,7 @@
 #include "LinkStack.h"
 
 
-//链栈
+
 Status initLStack(LinkStack *s){
     s->top=(LinkStackPtr)malloc(sizeof(StackNode));
     if(s->top){
